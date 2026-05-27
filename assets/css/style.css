@@ -1409,18 +1409,24 @@ background: #f8f6f3 !important;
       }
     }
 
-    @media (max-width: 760px) {
-      html,
-      body {
-        overflow-x: hidden;
-        overscroll-behavior-x: none;
-        -webkit-overflow-scrolling: touch;
-      }
+   @media (max-width: 760px) {
+  html,
+  body {
+    overflow-x: hidden;
+    overscroll-behavior-x: none;
+    -webkit-overflow-scrolling: touch;
+  }
 
-      .site-header {
-        width: 100%;
-      }
+  .site-header {
+    width: 100%;
+    padding-top: 14px;
+  }
 
+  .logo-link {
+    font-size: 34px;
+    letter-spacing: 0.08em;
+  }
+}
       .site-header.is-floating,
       .site-header.is-scrolled {
   background: rgba(255, 255, 255, 0.72) !important;
