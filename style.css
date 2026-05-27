@@ -1262,7 +1262,7 @@ fill: none;
       .loop-column-left {
         height: 620px;
       }
-    }
+
     
     @media (max-width: 640px) {
       .logo-link {
@@ -1409,7 +1409,7 @@ background: #f8f6f3 !important;
       }
     }
 
-   @media (max-width: 760px) {
+  @media (max-width: 760px) {
   html,
   body {
     overflow-x: hidden;
@@ -1435,21 +1435,19 @@ background: #f8f6f3 !important;
     letter-spacing: 0.08em;
   }
 }
-      .site-header.is-floating,
-      .site-header.is-scrolled {
-  background: rgba(255, 255, 255, 0.72) !important;
+  .site-header.is-floating,
+  .site-header.is-scrolled {
+    background: rgba(255, 255, 255, 0.72) !important;
+    border-bottom-color: rgba(221, 215, 210, 0.5);
+    backdrop-filter: blur(14px) !important;
+    -webkit-backdrop-filter: blur(14px) !important;
+  }
 
-  border-bottom-color: rgba(221, 215, 210, 0.5);
-
-  backdrop-filter: blur(14px) !important;
-  -webkit-backdrop-filter: blur(14px) !important;
-}
-
-      .header-inner {
-        gap: 12px;
-        padding: 14px 16px;
-        position: relative;
-      }
+  .header-inner {
+    gap: 12px;
+    padding: 14px 16px;
+    position: relative;
+  }
 
       .logo-link {
         font-size: clamp(24px, 7vw, 30px);
